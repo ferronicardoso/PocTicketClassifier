@@ -1,0 +1,42 @@
+# Saída de build
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.log
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# IDEs e editores (Rider, Visual Studio, VS Code)
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.DotSettings.user
+
+# Modelos e artefatos de pesos (não versionar)
+*.safetensors
+*.onnx
+*.onnx.data
+*.gguf
+*.bin
+models/
+
+# Segredos e configuração local
+.env
+.env.*
+*.pfx
+*.snk
+appsettings.*.local.json
+secrets.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
